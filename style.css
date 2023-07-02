@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'LabGrotesque','Helvetica Neue','Helvetica','Arial','sans-serif';
+
+}
+.header {
+    position: relative;
+    padding-top: 30px;
+    flex-direction: column;
+    display: flex;
+    text-align: left;
+    align-items: flex-start;
+}
+.header .logo {
+    position: absolute;
+    left: 50px;
+}
+
+.header .end {
+    position: absolute;
+    right: 50px;
+}
+
+.header .mid {
+    position: absolute;
+    align-items: center;
+}
+.container{
+    max-width: 1024px;
+    margin: auto;
+    
+}
+.logo{
+    cursor: pointer;
+}
+.main{
+    margin-top:1em;
+    margin-bottom:1em;
+    display: flex;
+    align-items:center;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: center;
+}
+.mid{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 600;
+    color: #767676;
+    font-family: 'LabGrotesque','Helvetica Neue','Helvetica','Arial','sans-serif';
+}
+.fix{
+    position: fixed;
+    max-width: 1024;
+    margin: auto;
+}
+.content:hover{
+    color: black;
+    cursor: pointer;
+    font-size: 17px;
+    transition:.3s;
+}
+.content{
+margin-left:24px ;
+}
+.black{
+    color: black;
+}
+.end{
+    border-radius: 24px;
+    background-color: #04ddb2;
+    align-items: center;
+    font-family: 'LabGrotesque','Helvetica Neue','Helvetica','Arial','sans-serif';
+}
+.download_btn{
+    font-weight: 600;
+    width: 130px;
+    height: 50px;
+    padding: 17px 26px;
+    color: white;   
+}
+.end:hover{
+    cursor: pointer;
+}
+/* TOUR section */
+.tour_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Tour{
+    margin: 60px ;
+}
+.tour_image{
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.tour_image_div{
+    display: flex;
+    justify-content: center;
+   
+}
+.tour_heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'LabGrotesque','Helvetica Neue','Helvetica','Arial','sans-serif';
+
+    /* align-items: center; */
+}
+.lobe{
+    font-size: 50px;
+    margin: 20px 0;
+    font-weight: 900;
+    color: #333333;
+    text-align: center;
+
+}
+.tour{
+    color: #04DDB2;
+    font-weight: 900;
+}
+
+.tour_des{
+    font-weight: 500;
+    font-size: 29px;
+    margin-bottom: 50px;
+    color: #333333;
+    font-family: 'LabGrotesque','Helvetica Neue','Helvetica','Arial','sans-serif';
+
+}
+
+.Train{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.train_heading{
+    font-size: 40px;
+    width: 100%;
+
+}
+.train{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.train_btn{
+    margin-bottom:120px ;
+}
+.footer_content{
+    padding: 60px 0;
+    border-top: 1px solid gray;
+}
+.footer_content{
+display: flex;
+justify-content: space-between;
+}
+.footer_first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -30px;
+}
+.footer_prod{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.footer_product{
+    padding: 10px 0;
+}
+.footer_second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-column-heading{
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 28px;
+    }
+.footer-devision-a{
+    text-decoration: none;
+    color: #333333;
+    display: flex;
+    font-weight: normal;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 ;
+}
+.footer_img{
+    margin-top:4px;
+    margin-bottom: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.footer_icons i{
+    padding: 7px;
+    margin: 2px;
+    background-color: #04DDB2;
+    border-radius: 24px;
+    color: white;
+}
